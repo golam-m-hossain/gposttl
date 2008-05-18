@@ -1,0 +1,18 @@
+AC_INIT(src/gposttl.c)
+
+PACKAGE="gposttl"
+VERSION="0.9.0"
+BUG_REPORT="gmhossain@gmail.com"
+
+AM_CONFIG_HEADER(config.h)
+AM_INIT_AUTOMAKE($PACKAGE, $VERSION, $BUG_REPORT)
+AC_PROG_CC
+AC_PROG_INSTALL
+
+dnl AC_DEFINE_UNQUOTED([DATADIR], ["$datadir"] ,[data])
+CPPFLAGS="-DDATADIR=\\\"${datadir}\\\""
+
+AC_OUTPUT(Makefile  data/Makefile  doc/Makefile src/Makefile)
+
+
+

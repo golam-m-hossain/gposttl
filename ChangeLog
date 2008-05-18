@@ -1,0 +1,42 @@
+2008-05-18 12:09  gm_hossain
+
+	* doc, doc/gposttl.1: man page added.
+
+2008-05-18 12:03  gm_hossain
+
+	* NEWS, data, data/BIGRAMS, data/CONTEXTUALRULEFILE,
+	  data/LEXICALRULEFILE, data/README, data/lemmatized_lexicon:
+	  Datafiles added.
+
+2008-05-18 11:57  gm_hossain
+
+	* src/registryP.h, src/start-state-tagger.c, src/sysdep.h,
+	  src/tagger.c, src/tagger.h, src/tagger_controller.c,
+	  src/tagger_controller.h, src/tokenizer.c, src/tokenizer.h: Files
+	  added.
+
+2008-05-18 11:52  gm_hossain
+
+	* src/gposttl.c, src/memory.c, src/memory.h, src/registry.c,
+	  src/registry.h, src/useful.c, src/useful.h: Files added.
+
+2008-05-18 03:18  gm_hossain
+
+	* src/enhance_penntag.c, src/enhance_penntag.h,
+	  src/final-state-tagger.c, src/lex.c, src/lex.h: enhance_penntag.c
+	  enhance_penntag.h lex.c lex.h final-state-tagger.c added.
+
+2008-05-18 03:14  gm_hossain
+
+	* src, src/bool.h, src/darray.c, src/darray.h, src/darrayP.h:
+	  bool.h darray.c darray.h darrayP.h added.
+
+2008-05-18 03:06  gm_hossain
+
+	* AUTHORS, COPYING, INSTALL, README: License, authors, readme
+	  install files added.
+
+2008-05-18 02:51  gm_hossain
+
+	* .: Initial import
+
