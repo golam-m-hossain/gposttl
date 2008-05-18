@@ -1,0 +1,57 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.TH GPOSTTL 1 "May 14, 2008"
+.\" Please adjust this date whenever revising the manpage.
+.SH NAME
+GPoSTTL \- An enhanced version of Brill's Parts\-of\-Speech Tagger,
+with built-in Tokenizer and Lemmatizer
+.SH SYNOPSIS
+.B gposttl [OPTION] [FILE or STDIN]
+.SH DESCRIPTION
+This is an enhanced version of Brill's rule-based
+Parts\-of\-Speech Tagger, with built-in Tokenizer and
+Lemmatizer. It reads from FILE or STDIN and writes to
+STDOUT.  GPoSTTL is based on LPost package by Jimmy Lin
+(jimmylin at umd.edu). LPost itself is based on Benjamin
+Han's ePost package which is a cleaned-up version of Eric
+Brill's original code. The lemma list is based on
+e_lemma.txt (Ver.1), complied by Yasumasa Someya (someya at
+someya-net.com).
+.SH OPTIONS
+.IP \-\-tree-tagger-mode(DEFAULT)
+Output is written as "word	tag	lemma" format. In
+this mode gposttl can be used as a drop\-in substitute for
+TreeTagger which is a probabilistic Parts\-of\-Speech Tagger
+developed by Helmut Schmid. Note: In this mode enhanced set
+of Penn tagset are used to make its output compatible with
+the output of TreeTagger. In particular, second letter of
+the verb tags distinguishes between "be" verbs (B), "have"
+verbs (H) and other verbs (V).
+.IP \-\-brill-mode 
+Output is written as "word/tag" format. In this mode
+gposttl behaves like original Eric Brill's tagger.
+.IP \-\-silent 
+Suppresses non-essential console output. This option is not
+honoured if there are errors.
+.IP \-\-version
+Prints version of the program.
+.SH ENVIRONMENT
+.IP GPOSTTL_DATA_DIR
+The full pathname where alternate lexicon and rulefiles can be
+found. It overrides default data directory.
+.SH AUTHOR
+Golam Mortuza Hossain <gmhossain at gmail dot com>
+.SH "LICENSE"
+.IX Header "LICENSE"
+GPoSTTL is licensed under the same terms as
+the license of original Brill tagger. 
+.PP
+Certain components of GPoSTTL such as Tokenizer and Lemmatizer which
+are not part of original Brill Tagger can also be optionally
+redistributed and/or modified under the terms of GPL. Please see the
+specific files for exact details.
+.SH "REPORTING BUGS"
+Report bugs to Golam Mortuza Hossain <gmhossain at gmail dot com>
+.SH "SEE ALSO"
+.BR ePost (1),
+.BR LPost (1),
+.BR TreeTagger (1),
