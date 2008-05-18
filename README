@@ -1,1 +1,11 @@
 For installation see INSTALL
+
+PS: If you have downloaded source codes from SVN repository then
+you need to generate "configure" script by using following 
+command
+
+$ autoreconf --install
+
+For subsequent installtion see INSTALL 
+
+

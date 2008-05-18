@@ -1,3 +1,31 @@
+2008-05-18 16:30  gm_hossain
+
+	* Makefile.in, aclocal.m4, autom4te.cache, config.h.in, configure,
+	  data/Makefile.in, depcomp, doc/Makefile.in, install-sh, missing,
+	  src/Makefile.in: Undoing rev 11,12.
+
+2008-05-18 16:02  gm_hossain
+
+	* Makefile.in, aclocal.m4, autom4te.cache, autom4te.cache/output.0,
+	  autom4te.cache/output.1, autom4te.cache/requests,
+	  autom4te.cache/traces.0, autom4te.cache/traces.1, config.h.in,
+	  configure, data/Makefile.in, depcomp, doc/Makefile.in,
+	  install-sh, missing: autoreconf --installed executed.
+
+2008-05-18 16:01  gm_hossain
+
+	* src/Makefile.in: autoreconf --installed executed.
+
+2008-05-18 13:12  gm_hossain
+
+	* configure.ac, configure.in: configure.in removed and configure.ac
+	  added.
+
+2008-05-18 12:33  gm_hossain
+
+	* ChangeLog, Makefile.am, configure.in, data/Makefile.am,
+	  doc/Makefile.am, src/Makefile.am: makefiles added.
+
 2008-05-18 12:09  gm_hossain
 
 	* doc, doc/gposttl.1: man page added.
