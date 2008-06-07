@@ -238,6 +238,7 @@ char *Tokenizer ( char *buff )
 		"a.m .", "a.m.",
 		"cap .", "cap.",
 		"e.g .", "e.g.",
+		"eg .", "eg.",
 		"etc .", "etc.",
 		"ft .", "ft.",
 		"i.e .", "i.e.",
