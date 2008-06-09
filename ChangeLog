@@ -1,3 +1,15 @@
+2008-06-07 22:09  gm_hossain
+
+	* data/lemmatized_lexicon: lemmatized lexicon updated.
+
+2008-06-07 22:08  gm_hossain
+
+	* src/tokenizer.c: _eg._ added in Tokenizer
+
+2008-05-18 16:43  gm_hossain
+
+	* ChangeLog, README: README File updated.
+
 2008-05-18 16:30  gm_hossain
 
 	* Makefile.in, aclocal.m4, autom4te.cache, config.h.in, configure,
