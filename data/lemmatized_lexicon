@@ -418,7 +418,7 @@ ALL all PDT NNP
 ALLOWED allow VBD
 ALLY ally NN
 ALQ-135 alq-135 NN
-AM be NNP VBP NN
+AM am NNP VBP NN
 AMBASSADOR ambassador NN
 AMERICANS americans NNS
 AMNESTY amnesty NN
@@ -825,7 +825,7 @@ Aluminum-Bat aluminum-bat NN
 Aluminum-ingot aluminum-ingot NN
 Alumni alumnus NNPS
 Always always RB NNP
-Am be NNP VBP
+Am be VBP NNP 
 Amadeus amadeus NN NNP
 Amateur amateur NNP JJ NN
 Amazing amaze JJ NNP
@@ -22116,7 +22116,7 @@ codification codification NN
 codified codify VBN
 codifies codify VBZ
 codifying codify VBG
-coding code NN
+coding code VBG NN
 codpiece codpiece NN
 coed coed NN
 coeds coeds NNS
@@ -23683,8 +23683,8 @@ cookie cookie NN
 cookie-and-cracker cookie-and-cracker JJ
 cookie-cutter cookie-cutter NN
 cookies cookie NNS
-cooking cook NN VBG JJ
-cooks cook NNS
+cooking cook VBG NN JJ
+cooks cook VBZ NNS
 cookware cookware NN
 cool cool JJ NN RB VB VBP
 cool-headed cool-headed JJ
