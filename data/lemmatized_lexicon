@@ -1630,7 +1630,7 @@ Beneficiary beneficiary NN
 Benefit benefit NNP VB
 Benefits benefit NNS
 Benets benets NNPS
-Bengali bengali JJ NNP
+Bengali bengali NNP JJ NNP
 Bengalis Bengali NNPS
 Bengals bengals NNPS
 Bengals-Browns bengals-browns JJ
@@ -66194,7 +66194,7 @@ usability usability NN
 usable usable JJ
 usage usage NN
 usages usage NNS
-use use NN VB VBP
+use use VB NN VBP
 useable useable JJ
 used use VBN VBD JJ
 used'em used'em NN
