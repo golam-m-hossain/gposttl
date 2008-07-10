@@ -62,6 +62,9 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	char **perl_split_ptr,**temp_perl_split_ptr,**therule,**therule2;
 	char bigram1[MAXWORDLEN],bigram2[MAXWORDLEN];
 	char noun[10],proper[10];
+/* Added by Golam Mortuza Hossain */
+	char number[10];
+/* g.m.h */
 	int count,count2,count3,rulesize,tempcount, numwords, i, j;
 	char tempstr_space[MAXWORDLEN+MAXAFFIXLEN],bigram_space[MAXWORDLEN*2];
 	int numlexiconentries=0;
@@ -181,6 +184,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 
 	strcpy(noun,"NN");
 	strcpy(proper,"NNP");
+	strcpy(number,"CD");
 	
 /* UNCOMMENT THIS AND COMMENT OUT START STATE 2 IF ALL UNKNOWN WORDS
    SHOULD INITIALLY BE ASSUMED TO BE TAGGED WITH "NN".
@@ -198,7 +202,13 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
      /*** START STATE 2 ***/
       for (count=0; count < Darray_len(tag_array_val);++count) 
 	{
-	  if (((char *)Darray_get(tag_array_key,count))[0] >='A' && 
+/* Added by Golam Mortuza Hossain: If unknown words starts with number
+ * then assume it as being number  */
+	  if (((char *)Darray_get(tag_array_key,count))[0] >='0' && 
+	      ((char *)Darray_get(tag_array_key,count))[0] <= '9') 
+	    Darray_set(tag_array_val,count,number); 
+/* g.m.h. */
+	  else if (((char *)Darray_get(tag_array_key,count))[0] >='A' && 
 	      ((char *)Darray_get(tag_array_key,count))[0] <= 'Z') 
 	    Darray_set(tag_array_val,count,proper); 
 	  else
