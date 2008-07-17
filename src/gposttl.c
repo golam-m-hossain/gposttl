@@ -30,6 +30,7 @@ __________________________________________________________________
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <getopt.h>
 
 #include "tagger_controller.h"
 #include "lex.h"
@@ -115,48 +116,79 @@ int check_and_tag ( char *ptr0, int  enhance_penntag)
 /* Main */	
 int main (int argc, char *argv[], char *envp[])
 {
-	int  enhance_penntag = 1 ;
-	int  ch, ch2, i=0, n=1, j=1, silent=0, version=0 ;
+	static int  enhance_penntag = 1 ;
+	static int  silent=0, version=0 ;
+	int  ch, ch2, i=0, n=1, j=1 ;
 	char *buf, *inptr, *ptr0, *ptr1, *ptr2, *ptr3 ;
 	FILE *fp;
 
-	fp = stdin ;
 
-/* Read command line options */
+/* Read command line options using getopt */
 	if ( argc > 4 )
 	{
-	fprintf( stderr, "error!!usage: %s [OPTION] [FILE or STDIN]\n",argv[0]);
+	fprintf( stderr, "error!!usage: %s [OPTIONS] [FILE or STDIN]\n",argv[0]);
 	exit(1) ;	
 	}
 
-	for (i=1;  i< argc; i++)
-	{
-		if (argv[i][0] == '-') 
-		{
-		if ( strcmp( argv[i],"--brill-mode")==0 ) enhance_penntag = 0;
-		else if ( strcmp( argv[i],"--tree-tagger-mode")==0 ) 
-				enhance_penntag = 1;
-		else if ( strcmp( argv[i],"--silent")==0 ) silent = 1;
-		else if ( strcmp( argv[i],"--version")==0 ) version = 1;
-		}
-		else 
-		{
-		fp = fopen(argv[i],"r") ;
-		if ( fp == NULL )
-			{
-			fprintf( stderr, "error!! File %s not found\n",argv[i]);
-			exit(1) ;	
-			}
-		else	break ;	
-		}
-	}
+       while (1)
+         {
+           static struct option long_options[] =
+             {
+               /* Relevant flag. */
+               {"silent",    no_argument,      &silent, 1},
+               {"verbose",   no_argument,      &silent, 0},
+               {"brill-mode",no_argument,      &enhance_penntag, 0},
+               {"version",   no_argument,      &version, 1},
+               {0, 0, 0, 0}
+             };
+           /* getopt_long stores the option index here. */
+           int c, option_index = 0;
+     
+           c = getopt_long (argc, argv, "abc:d:f:",
+                            long_options, &option_index);
+     
+           /* Detect the end of the options. */
+           if (c == -1)
+             break;
+     
+           switch (c)
+             {
+             case 0:
+               /* If this option set a flag, do nothing else now. */
+               if (long_options[option_index].flag != 0)
+                 break;
+             case '?':
+               /* getopt_long already printed an error message. */
+               break;
+     
+             default:
+               abort ();
+             }
+         }
+
 /* Print tagger info and quit */
 	if ( version )
 	{
-	fprintf( stdout, "GPoSTTL %s beta", VERSION); 
-	if ( fp ) fclose (fp) ;
+	fprintf( stdout, "GPoSTTL %s", VERSION); 
 	exit(0) ;	
 	}
+
+       /* If input filename has been specified then use it
+          otherwise use stdin for input. */
+	fp = stdin ;
+       
+	if (optind < argc)
+        {
+	fp = fopen(argv[optind++], "r");
+	if ( fp == NULL )
+		{
+		fprintf( stderr, "error!! File %s not found\n",argv[i]);
+		exit(1) ;	
+		}
+        }
+/* end of getopt */
+
+
 
 /*	initialize */
 	if ( initialize_tagger( getenv("GPOSTTL_DATA_DIR")) !=0 )
@@ -191,6 +223,7 @@ int main (int argc, char *argv[], char *envp[])
 	
 	if ( n == INPUTLEN - 4 ) 
 		{
+		if ( !silent )
 		fprintf( stderr, "\r processing %d bytes\n",j*INPUTLEN) ; 
 		j++;
 		n=0; ptr3 = inptr; ptr3--; 

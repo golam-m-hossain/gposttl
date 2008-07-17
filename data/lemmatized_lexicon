@@ -29587,6 +29587,8 @@ erotic erotic JJ
 erotica erotica NNS
 erotically erotically RB
 err err VBP VB
+erring err VBG NN
+erred err VBN VBD
 errand errand NN
 errant errant JJ
 errata errata NNS
@@ -29708,8 +29710,8 @@ estuarian estuarian NN
 estuaries estuary NNS
 estuary estuary NN
 et et FW VBD CC NNP
-etc etc FW NN
-etc. etc. FW NN
+etc etc NN FW NN
+etc. etc. NN FW NN
 etcetera etcetera NN FW
 etch etch VB
 etched etch VBD VBN
