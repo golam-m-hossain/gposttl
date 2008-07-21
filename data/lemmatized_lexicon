@@ -13027,6 +13027,7 @@ Viscera viscera NNPS
 Viscerally viscerally RB
 Visibility visibility NN
 Visigoths visigoths NNPS
+Visit visit VBP NN VBP
 Visiting visit VBG NNP
 Visitors visitor NNS NNP NNPS
 Visits visit NNS
@@ -18130,6 +18131,8 @@ bioengineers bioengineers NNS
 bioequivalence-therapeutic-equivalence bioequivalence-therapeutic-equivalence JJ
 bioequivalent bioequivalent JJ
 biofeedback biofeedback NN
+biofuel biofuel NN
+biofuels biofuel NNS
 biographer biographer NN
 biographer\ biographer\ NN
 biographers biographer NNS
@@ -48140,6 +48143,8 @@ parrots parrot NNS
 parry parry VB
 pars pars NNS
 parses parse VBZ
+parsing parse VBG NN
+parsed parse VBN
 parsimonious parsimonious JJ
 parsimony parsimony NN
 parsing parse VBG NN
@@ -66777,7 +66782,7 @@ vision vision NN
 visionaries visionary NNS
 visionary visionary JJ
 visions vision NNS VBZ
-visit visit VB NN VBP
+visit visit VBP NN VBP
 visitation visitation NN
 visitations visitation NNS
 visited visit VBD VBN
