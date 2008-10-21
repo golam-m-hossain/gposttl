@@ -15204,7 +15204,7 @@ analogue analogue NN
 analogues analogue NNS
 analogy analogy NN
 analyse analyse VB NN
-analyses analyse VBZ
+analyses analysis NNS VBZ
 analysed analyse VBN VBD JJ
 analysing analyse VBG
 analyze analyze VB NN
@@ -19908,6 +19908,7 @@ cachexia cachexia FW
 cackled cackle VBD
 cackly cackly RB
 cacophony cacophony NN
+cacti cactus NNS
 cactus cactus NN
 cadaver cadaver NN
 cadaverous cadaverous JJ
@@ -35028,7 +35029,7 @@ halts halt NNS VBZ
 halvah halvah NN
 halve halve VB
 halved halve VBN JJ VBD
-halves halve NNS VBZ
+halves half NNS VBZ
 halving halve VBG
 ham ham NN
 ham-handed ham-handed JJ
@@ -41075,7 +41076,7 @@ liver liver NN
 liveried liveried JJ
 livers liver NNS
 livery livery NN
-lives live NNS VBZ
+lives life NNS VBZ
 livestock livestock NN
 livestock-dealing livestock-dealing JJ
 livid livid JJ
@@ -48647,7 +48648,7 @@ penultimate penultimate JJ
 penurious penurious JJ
 penury penury NN
 peonies peony NNS
-people people NNS NN
+people person NNS NN
 people-oriented people-oriented JJ
 people... people... :
 peopled people VBN
@@ -54247,7 +54248,7 @@ reserving reserve VBG
 reservists reservist NNS
 reservoir reservoir NN
 reservoirs reservoir NNS
-reset reset NN VBN JJ VB
+reset reset VBP NN VBN JJ VB
 resettable resettable JJ
 resettle resettle VB
 resettled resettle VBN
@@ -54379,6 +54380,7 @@ rest-room rest-room NN
 restaffed restaffed VBD
 restaged restaged VBN
 restaging restaging VBG
+Reset reset VBP NN
 Restart restart VB
 Restarts restart VBZ
 Restarted restart VBN VBD
