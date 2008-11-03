@@ -1001,6 +1001,7 @@ Appear appear VBP
 Appearance appearance NN
 Appendix appendix NN
 Appendixes appendix NNS
+Appendices appendix NNS
 Applause applause NN
 Apple apple NNP NN
 Apples apple NNS NNPS
@@ -15790,6 +15791,9 @@ appellate-litigation appellate-litigation NN|JJ
 append append VB
 appendages appendage NNS
 appended append VBN
+appendix appendix NN
+appendixes appendix NNS
+appendices appendix NNS
 appestat appestat NN
 appetite appetite NN
 appetites appetite NNS
@@ -16953,7 +16957,8 @@ backwoods-and-sand-hill backwoods-and-sand-hill JJ
 backyard backyard NN
 backyards backyards NNS
 bacon bacon NN
-bacteria bacteria NNS
+bacterium bacterium NN
+bacteria bacterium NNS
 bacteria-based bacteria-based JJ
 bacteria-contaminated bacteria-contaminated JJ
 bacteria-free bacteria-free JJ
@@ -17508,6 +17513,8 @@ beatnik beatnik NN
 beatniks beatnik NNS
 beats beat VBZ NNS
 beau beau NN
+beaux beau NNS
+beaus beau NNS
 beauteous beauteous JJ
 beauticians beautician NNS
 beauties beauty NNS
@@ -23858,6 +23865,8 @@ corpses corpse NNS
 corpsman corpsman NN
 corpulence corpulence NN
 corpus corpus NN FW
+corpuses corpus NNS
+corpora corpus NNS
 corpuscular corpuscular JJ
 corpuscular-radiation corpuscular-radiation NN
 corral corral NN VB
@@ -25168,6 +25177,7 @@ datelined datelined VBN VBD
 dates date NNS VBZ
 dating date VBG NN
 datum datum NN
+data datum NNS
 daubed daub VBD
 daughter daughter NN
 daughter-in-law daughter-in-law NN
@@ -33138,6 +33148,7 @@ fungi fungus NNS
 fungible fungible JJ
 fungicides fungicide NNS
 fungus fungus NN
+funguses fungus NNS
 fungus-produced fungus-produced JJ
 funks funk NNS
 funky funky JJ
@@ -42484,6 +42495,7 @@ matriculated matriculate VBN VBD
 matrimonial matrimonial JJ
 matrimony matrimony NN
 matrix matrix NN
+matrices matrix NNS
 matron matron NN
 matronly matronly JJ
 matryoshka matryoshka FW
@@ -44837,6 +44849,7 @@ neatest neat JJS
 neatly neatly RB
 neatness neatness NN
 nebula nebula NN
+nebulae nebula NNS
 nebular nebular JJ
 nebulous nebulous JJ
 necessaries necessaries NNS
@@ -48036,6 +48049,7 @@ paralleling parallel VBG
 parallelism parallelism NN
 parallels parallel NNS VBZ
 paralysis paralysis NN
+paralyses paralysis NNS
 paralyze paralyze VB
 paralyzed paralyzed VBN JJ
 paralyzes paralyzes VBZ
@@ -61802,11 +61816,13 @@ synonymous synonymous JJ
 synonyms synonym NNS
 synonymy synonymy NN
 synopsis synopsis NN
+synopses synopsis NNS
 syntactic syntactic JJ
 syntactical syntactical JJ
 syntactically syntactically RB
 syntax syntax NN
 synthesis synthesis NN
+syntheses synthesis NNS
 synthesised synthesised VBN
 synthesize synthesize VB
 synthesized synthesize VBN
@@ -61858,6 +61874,7 @@ table table NN VB
 table-tennis table-tennis NN
 table-top table-top JJ
 tableau tableau NN
+tableaux tableau NNS
 tablecloths tablecloth NNS
 tabled table VBN
 tableland tableland NN
@@ -66805,6 +66822,7 @@ visualizes visualize VBZ
 visually visually RB
 visuals visuals NNS
 vitae vitae NN
+vita vitae NNS
 vital vital JJ
 vitality vitality NN
 vitally vitally RB
