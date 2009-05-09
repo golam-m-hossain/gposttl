@@ -1,3 +1,36 @@
+2009-05-09 13:30  gm_hossain
+
+	* data/lemmatized_lexicon: Lexicon updated.
+
+2008-11-03 18:35  gm_hossain
+
+	* data/lemmatized_lexicon: Lexicon updated with more entries
+
+2008-10-21 19:52  gm_hossain
+
+	* data/lemmatized_lexicon: Lexicon updated.
+
+2008-07-21 20:03  gm_hossain
+
+	* data/lemmatized_lexicon: lexicon updated.
+
+2008-07-17 22:35  gm_hossain
+
+	* data/lemmatized_lexicon, doc/gposttl.1, src/gposttl.c: GetOpt is
+	  now used for parsing command line options.
+
+2008-07-10 17:13  gm_hossain
+
+	* data/lemmatized_lexicon: Updated
+
+2008-07-10 00:54  gm_hossain
+
+	* src/start-state-tagger.c: Unknown number CD initialization fixed.
+
+2008-07-07 02:26  gm_hossain
+
+	* ChangeLog, configure.ac: Ver 0.9.2 started.
+
 2008-07-06 19:31  gm_hossain
 
 	* data/lemmatized_lexicon: Lexicon updated.
