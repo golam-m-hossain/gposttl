@@ -1,3 +1,7 @@
+2009-05-09 14:09  gm_hossain
+
+	* ChangeLog, configure.ac: Bumped to v0.9.3
+
 2009-05-09 13:30  gm_hossain
 
 	* data/lemmatized_lexicon: Lexicon updated.
