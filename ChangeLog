@@ -1,3 +1,8 @@
+2010-04-10 11:15  gm_hossain
+
+	* ChangeLog, data/lemmatized_lexicon: Lexicon fixes from Eleonora
+	  (eleonora46_at_gme_dot_net)
+
 2009-05-09 14:09  gm_hossain
 
 	* ChangeLog, configure.ac: Bumped to v0.9.3
