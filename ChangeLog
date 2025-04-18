@@ -1,3 +1,24 @@
+2025-04-18 10:44  gm_hossain
+
+	* src/start-state-tagger.c: Fix multiple warnings by using %p for
+	  pointer print
+
+2025-04-18 10:40  gm_hossain
+
+	* src/lex.h: Fix warning by explicit declaration
+
+2025-04-18 10:36  gm_hossain
+
+	* src/tokenizer.h, src/useful.h: Fix warning by including stdlib.h
+
+2025-04-18 10:27  gm_hossain
+
+	* src/enhance_penntag.h: Fix warning by including ctype.h
+
+2010-04-10 11:27  gm_hossain
+
+	* AUTHORS, ChangeLog: Eleonora's name added in AUTHORS
+
 2010-04-10 11:15  gm_hossain
 
 	* ChangeLog, data/lemmatized_lexicon: Lexicon fixes from Eleonora
