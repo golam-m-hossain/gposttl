@@ -410,7 +410,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	    for (count2=0;count2<Darray_len(tag_array_key);++count2) {
 	      if (strcmp(Darray_get(tag_array_val,count2),therule[rulesize-1])
 		  == 0){
-		sprintf(tempstr_space,"%s%s",
+		sprintf(tempstr_space,"%s%p",
 			therule[0],Darray_get(tag_array_key,count2));
 		if (Registry_get(lexicon_hash,(char *)tempstr_space) != NULL){
 		  SetTagVal(tag_array_val,freeptrs,count2,therule[rulesize-1],&first);
@@ -422,7 +422,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	   else if (strcmp(therule2[1],"faddpref") == 0) {
 	    for (count2=0;count2<Darray_len(tag_array_key);++count2) {
 	      if (strcmp(Darray_get(tag_array_val,count2),therule[rulesize-1]) == 0){
-		sprintf(tempstr_space,"%s%s",therule2[0],
+		sprintf(tempstr_space,"%s%p",therule2[0],
 			Darray_get(tag_array_key,count2));
 		if (Registry_get(lexicon_hash,(char *)tempstr_space) != NULL){
 		  SetTagVal(tag_array_val,freeptrs,count2,therule[rulesize-1],&first);
@@ -436,7 +436,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	    for (count2=0;count2<Darray_len(tag_array_key);++count2) {
 	      if (strcmp(Darray_get(tag_array_val,count2),therule[rulesize-1])
 		  !=0) {
-		sprintf(tempstr_space,"%s%s",
+		sprintf(tempstr_space,"%p%s",
 		       Darray_get(tag_array_key,count2),
 		       therule[0]);
 		if (Registry_get(lexicon_hash,(char *)tempstr_space) != NULL){
@@ -451,7 +451,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	    for (count2=0;count2<Darray_len(tag_array_key);++count2) {
 	      if (strcmp(Darray_get(tag_array_val,count2),therule[0])
 		  ==0) {
-		sprintf(tempstr_space,"%s%s",
+		sprintf(tempstr_space,"%p%s",
 			Darray_get(tag_array_key,count2),
 			therule2[0]);
 		if (Registry_get(lexicon_hash,(char *)tempstr_space) != NULL){
@@ -466,7 +466,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	     for (count2=0;count2<Darray_len(tag_array_key);++count2) {
 	       if (strcmp(Darray_get(tag_array_val,count2),therule[rulesize-1])
 		   !=0) {
-		 sprintf(bigram_space,"%s %s",
+		 sprintf(bigram_space,"%p %s",
 			Darray_get(tag_array_key,count2),therule[0]);
 		 if (Registry_get(bigram_hash,(char *)bigram_space) != NULL) {
 		   SetTagVal(tag_array_val,freeptrs,count2,therule[rulesize-1],&first);
@@ -479,7 +479,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	     for (count2=0;count2<Darray_len(tag_array_key);++count2) {
 	       if (strcmp(Darray_get(tag_array_val,count2),therule[0])
 		   ==0) {
-		 sprintf(bigram_space,"%s %s",Darray_get(tag_array_key,count2),therule2[0]);
+		 sprintf(bigram_space,"%p %s",Darray_get(tag_array_key,count2),therule2[0]);
 		 if (Registry_get(bigram_hash,(char *)bigram_space) != NULL) {
 		   SetTagVal(tag_array_val,freeptrs,count2,therule[rulesize-1],&first);
 		 }
@@ -491,7 +491,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	     for (count2=0;count2<Darray_len(tag_array_key);++count2) {
 	       if (strcmp(Darray_get(tag_array_val,count2),therule[rulesize-1])
 		   !=0) {
-		 sprintf(bigram_space,"%s %s",therule[0],Darray_get(tag_array_key,count2));
+		 sprintf(bigram_space,"%s %p",therule[0],Darray_get(tag_array_key,count2));
 		 if (Registry_get(bigram_hash,(char *)bigram_space) != NULL) {
 		   SetTagVal(tag_array_val,freeptrs,count2,therule[rulesize-1],&first);
 		 }
@@ -503,7 +503,7 @@ char **StartStateTagger(char **buffer, int numSen, Registry lexicon_hash,
 	     for (count2=0;count2<Darray_len(tag_array_key);++count2) {
 	       if (strcmp(Darray_get(tag_array_val,count2),therule[0])
 		   ==0) {
-		 sprintf(bigram_space,"%s %s",therule2[0],Darray_get(tag_array_key,count2));
+		 sprintf(bigram_space,"%s %p",therule2[0],Darray_get(tag_array_key,count2));
 		 if (Registry_get(bigram_hash,(char *)bigram_space) != NULL) {
 		   SetTagVal(tag_array_val,freeptrs,count2,therule[rulesize-1],&first);
 		 }
