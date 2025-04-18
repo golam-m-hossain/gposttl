@@ -17,6 +17,7 @@
 #ifndef _USEFUL_H
 #define _USEFUL_H
 
+#include <stdlib.h>
 #include "sysdep.h"
 
 #ifndef NULL

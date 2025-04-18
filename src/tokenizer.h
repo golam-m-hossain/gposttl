@@ -32,6 +32,7 @@ __________________________________________________________________
 #define __TOKENIZER__H__
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <memory.h>
 
