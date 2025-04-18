@@ -34,10 +34,12 @@ __________________________________________________________________
 
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 #include <memory.h>
 #include "tagger.h"
 
 
+extern char * mylc( char *word );
 extern char * EnhancePennTag (char *buf, char *word, char *tag, char *lemma );
 
 #endif 
