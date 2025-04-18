@@ -19,6 +19,8 @@
 
 
 #ifdef __STDC__
+extern int numspaces();
+extern int numchars();
 extern char *append_with_space(char *,char *); 
     /* takes 2 strings, and appends them with a space btwn them */
 
