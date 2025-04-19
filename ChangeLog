@@ -1,162 +1,313 @@
-2025-04-18 10:44  gm_hossain
+commit 74a2ad546a88e149b7dc7bd23253d3d526811e83
+Author: Golam M Hossain <68801171+golam-m-hossain@users.noreply.github.com>
+Date:   Sat Apr 19 14:09:21 2025 +0530
 
-	* src/start-state-tagger.c: Fix multiple warnings by using %p for
-	  pointer print
+    Update README.md
 
-2025-04-18 10:40  gm_hossain
+commit af6b7045947e785c7defb3d68eb69b076af03875
+Author: Golam M Hossain <68801171+golam-m-hossain@users.noreply.github.com>
+Date:   Sat Apr 19 13:24:50 2025 +0530
 
-	* src/lex.h: Fix warning by explicit declaration
+    Update README.md
 
-2025-04-18 10:36  gm_hossain
+commit 7063a4b990ae4ceb4083cf089aea0207d9cbff7f
+Author: Golam M Hossain <68801171+golam-m-hossain@users.noreply.github.com>
+Date:   Sat Apr 19 13:18:31 2025 +0530
 
-	* src/tokenizer.h, src/useful.h: Fix warning by including stdlib.h
+    Create README.md
 
-2025-04-18 10:27  gm_hossain
+commit 03499f91b5a82c66630a61dda228b095aeba637d
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Fri Apr 18 11:24:44 2025 +0000
 
-	* src/enhance_penntag.h: Fix warning by including ctype.h
+    Bumped to v0.9.4
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@37 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2010-04-10 11:27  gm_hossain
+commit a7484c81e0a0abe8646d5917fee57472ec60287f
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Fri Apr 18 11:00:12 2025 +0000
 
-	* AUTHORS, ChangeLog: Eleonora's name added in AUTHORS
+    ChangeLog updated
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@36 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2010-04-10 11:15  gm_hossain
+commit d6390f6ea0ac3c0c51e42f7daf3ea2fc923e122c
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Fri Apr 18 10:44:00 2025 +0000
 
-	* ChangeLog, data/lemmatized_lexicon: Lexicon fixes from Eleonora
-	  (eleonora46_at_gme_dot_net)
+    Fix multiple warnings by using %p for pointer print
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@35 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2009-05-09 14:09  gm_hossain
+commit c99910af3dedff29000f83670676ab638b0cdbee
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Fri Apr 18 10:40:08 2025 +0000
 
-	* ChangeLog, configure.ac: Bumped to v0.9.3
+    Fix warning by explicit declaration
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@34 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2009-05-09 13:30  gm_hossain
+commit 5e88e639bd20e17a35d20f5cc134e0118c9f6415
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Fri Apr 18 10:36:25 2025 +0000
 
-	* data/lemmatized_lexicon: Lexicon updated.
+    Fix warning by including stdlib.h
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@33 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2008-11-03 18:35  gm_hossain
+commit 7218e2f326e46ec304731debc728f37b91f63c33
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Fri Apr 18 10:27:46 2025 +0000
 
-	* data/lemmatized_lexicon: Lexicon updated with more entries
+    Fix warning by including ctype.h
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@32 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2008-10-21 19:52  gm_hossain
+commit f2735340bf4b4339119e997f13f8f72fb97868f1
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sat Apr 10 11:27:04 2010 +0000
 
-	* data/lemmatized_lexicon: Lexicon updated.
+    Eleonora's name added in AUTHORS
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@31 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2008-07-21 20:03  gm_hossain
+commit 9ba5565a88875ca47448b16c270033cf6bf616b6
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sat Apr 10 11:15:22 2010 +0000
 
-	* data/lemmatized_lexicon: lexicon updated.
+    Lexicon fixes from Eleonora (eleonora46_at_gme_dot_net)
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@30 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2008-07-17 22:35  gm_hossain
+commit a405821ec40146f84f2f182fcabbe17ad2f31430
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sat May 9 14:09:54 2009 +0000
 
-	* data/lemmatized_lexicon, doc/gposttl.1, src/gposttl.c: GetOpt is
-	  now used for parsing command line options.
+    Bumped to v0.9.3
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@29 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2008-07-10 17:13  gm_hossain
+commit 9bf7d81eec4740ef4445e6d1cd93dd1a897546c4
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sat May 9 13:30:41 2009 +0000
 
-	* data/lemmatized_lexicon: Updated
+    Lexicon updated.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@28 8cd11665-574d-0410-9433-ec4c82c8f233
 
-2008-07-10 00:54  gm_hossain
-
-	* src/start-state-tagger.c: Unknown number CD initialization fixed.
-
-2008-07-07 02:26  gm_hossain
-
-	* ChangeLog, configure.ac: Ver 0.9.2 started.
-
-2008-07-06 19:31  gm_hossain
-
-	* data/lemmatized_lexicon: Lexicon updated.
-
-2008-06-21 10:47  gm_hossain
-
-	* ChangeLog, data/lemmatized_lexicon: lexicon updated.
-
-2008-06-10 12:14  gm_hossain
-
-	* data/lemmatized_lexicon: default tag for _told_ changed to VBN
-
-2008-06-09 10:50  gm_hossain
-
-	* ChangeLog, data/CONTEXTUALRULEFILE: Added new rule _IN VB PREVTAG
-	  PRP_ to CONTEXTUALRULEFILE
-
-2008-06-07 22:09  gm_hossain
-
-	* data/lemmatized_lexicon: lemmatized lexicon updated.
-
-2008-06-07 22:08  gm_hossain
-
-	* src/tokenizer.c: _eg._ added in Tokenizer
-
-2008-05-18 16:43  gm_hossain
-
-	* ChangeLog, README: README File updated.
-
-2008-05-18 16:30  gm_hossain
-
-	* Makefile.in, aclocal.m4, autom4te.cache, config.h.in, configure,
-	  data/Makefile.in, depcomp, doc/Makefile.in, install-sh, missing,
-	  src/Makefile.in: Undoing rev 11,12.
-
-2008-05-18 16:02  gm_hossain
-
-	* Makefile.in, aclocal.m4, autom4te.cache, autom4te.cache/output.0,
-	  autom4te.cache/output.1, autom4te.cache/requests,
-	  autom4te.cache/traces.0, autom4te.cache/traces.1, config.h.in,
-	  configure, data/Makefile.in, depcomp, doc/Makefile.in,
-	  install-sh, missing: autoreconf --installed executed.
-
-2008-05-18 16:01  gm_hossain
-
-	* src/Makefile.in: autoreconf --installed executed.
-
-2008-05-18 13:12  gm_hossain
-
-	* configure.ac, configure.in: configure.in removed and configure.ac
-	  added.
-
-2008-05-18 12:33  gm_hossain
-
-	* ChangeLog, Makefile.am, configure.in, data/Makefile.am,
-	  doc/Makefile.am, src/Makefile.am: makefiles added.
-
-2008-05-18 12:09  gm_hossain
-
-	* doc, doc/gposttl.1: man page added.
-
-2008-05-18 12:03  gm_hossain
-
-	* NEWS, data, data/BIGRAMS, data/CONTEXTUALRULEFILE,
-	  data/LEXICALRULEFILE, data/README, data/lemmatized_lexicon:
-	  Datafiles added.
-
-2008-05-18 11:57  gm_hossain
-
-	* src/registryP.h, src/start-state-tagger.c, src/sysdep.h,
-	  src/tagger.c, src/tagger.h, src/tagger_controller.c,
-	  src/tagger_controller.h, src/tokenizer.c, src/tokenizer.h: Files
-	  added.
-
-2008-05-18 11:52  gm_hossain
-
-	* src/gposttl.c, src/memory.c, src/memory.h, src/registry.c,
-	  src/registry.h, src/useful.c, src/useful.h: Files added.
-
-2008-05-18 03:18  gm_hossain
-
-	* src/enhance_penntag.c, src/enhance_penntag.h,
-	  src/final-state-tagger.c, src/lex.c, src/lex.h: enhance_penntag.c
-	  enhance_penntag.h lex.c lex.h final-state-tagger.c added.
-
-2008-05-18 03:14  gm_hossain
-
-	* src, src/bool.h, src/darray.c, src/darray.h, src/darrayP.h:
-	  bool.h darray.c darray.h darrayP.h added.
-
-2008-05-18 03:06  gm_hossain
-
-	* AUTHORS, COPYING, INSTALL, README: License, authors, readme
-	  install files added.
-
-2008-05-18 02:51  gm_hossain
-
-	* .: Initial import
-
+commit f99265fa6be67b7d3f99ecf3be9c177dd3c6a8c8
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Mon Nov 3 18:35:39 2008 +0000
+
+    Lexicon updated with more entries
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@27 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 4dd5dad9c0d58b77981bad9c0c0fe9c007c1eb21
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Tue Oct 21 19:52:08 2008 +0000
+
+    Lexicon updated.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@26 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit dc77b769538b2274065172c3bdfee4a6c6754b5e
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Mon Jul 21 20:03:12 2008 +0000
+
+    lexicon updated.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@25 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 28e0dc067e6c04771e6b310d9e08499a97341bbb
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Thu Jul 17 22:35:52 2008 +0000
+
+    GetOpt is now used for parsing command line options.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@24 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 2bc0e520ea5fa0dd9b37934d900f322f9c0e499c
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Thu Jul 10 17:13:20 2008 +0000
+
+    Updated
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@23 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit dc928cbf7bd6155c6814485dfd8a5dbe439b1ef0
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Thu Jul 10 00:54:38 2008 +0000
+
+    Unknown number CD initialization fixed.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@22 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit bb63d9834dee1997df7bb225392e9b984eb5b7bf
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Mon Jul 7 02:26:37 2008 +0000
+
+    Ver 0.9.2 started.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@21 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 41c013ba6995892c9f7dedcad0de28bb34e3b2ed
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun Jul 6 19:31:24 2008 +0000
+
+    Lexicon updated.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@20 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 16f1727bd0c0e710d49e49860ba60f4fbe89e2bc
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sat Jun 21 10:47:00 2008 +0000
+
+    lexicon updated.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@19 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 6a5477f2c4ddc98b54795441e6080d24b97f62a1
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Tue Jun 10 12:14:57 2008 +0000
+
+    default tag for _told_ changed to VBN
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@18 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit e191b974b607f9e93fcbc10f9ebbca277e62837b
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Mon Jun 9 10:50:40 2008 +0000
+
+    Added new rule _IN VB PREVTAG PRP_ to CONTEXTUALRULEFILE
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@17 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit ccee792aa279702506b04ed593c7ddc95662802f
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sat Jun 7 22:09:08 2008 +0000
+
+    lemmatized lexicon updated.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@16 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 7bef2a4af6fd8bb4b291f9fe003c70f3ebaf2f90
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sat Jun 7 22:08:14 2008 +0000
+
+    _eg._ added in Tokenizer
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@15 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 209028ac8d961e7f02aeabb1900b6f419e90a7de
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 16:43:12 2008 +0000
+
+    README File updated.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@14 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit d62a4837b406210393770e53c02b4d45b26567d3
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 16:30:05 2008 +0000
+
+    Undoing rev 11,12.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@13 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 10283eab2af647eff6ecd8a001c80ca134b8c54b
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 16:02:28 2008 +0000
+
+    autoreconf --installed executed.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@12 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 63c1a629e8921b7ab592f34c2225de0014546ff4
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 16:01:54 2008 +0000
+
+    autoreconf --installed executed.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@11 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit fb8bad01b323b98b8f5f59edf3601b0cf7073976
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 13:12:23 2008 +0000
+
+    configure.in removed and configure.ac added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@10 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 2cb9e6eab6e96508da75726449e6e351504fc8b8
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 12:33:16 2008 +0000
+
+    makefiles added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@9 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit fa46521b0a02a16ccf6f0e20739f917d77a06039
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 12:09:19 2008 +0000
+
+    man page added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@8 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 2506ac6d1d87378394475eff2a6044cd4a59fc33
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 12:03:24 2008 +0000
+
+    Datafiles added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@7 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 742cb42a3a86ba40656f4f06149dc70d41cb0e84
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 11:57:50 2008 +0000
+
+    Files added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@6 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 9542a50eca159001b830b4489aae82ad39f2ffac
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 11:52:56 2008 +0000
+
+    Files added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@5 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 7d50c632920a2c816fe524297b32779097c8713c
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 03:18:01 2008 +0000
+
+    enhance_penntag.c enhance_penntag.h lex.c lex.h final-state-tagger.c added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@4 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit b41186102be3ca3ca74e4eb08943b1129ea93518
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 03:14:14 2008 +0000
+
+    bool.h darray.c darray.h darrayP.h added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@3 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 42d052b26525206c026ed8463cc3ddbf97b36de8
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 03:06:33 2008 +0000
+
+    License, authors, readme install files added.
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@2 8cd11665-574d-0410-9433-ec4c82c8f233
+
+commit 1a439f00fb9e4f7aecb216f27224e96bf971091d
+Author: Golam M Hossain <gmhossain@gmail.com>
+Date:   Sun May 18 02:51:35 2008 +0000
+
+    Initial import
+    
+    git-svn-id: https://svn.code.sf.net/p/gposttl/code/trunk@1 8cd11665-574d-0410-9433-ec4c82c8f233
