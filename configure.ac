@@ -1,4 +1,4 @@
-AC_INIT([gposttl], [0.9.4], [gmhossain@gmail.com]) 
+AC_INIT([gposttl], [0.9.6], [gmhossain@gmail.com])
 AM_INIT_AUTOMAKE([ -Wall -Werror foreign])
 AC_PROG_CC
 AC_PROG_INSTALL
