@@ -56,7 +56,7 @@ echo "I am loving it!" | gposttl
 ```
 which would result an output like:
 ```bash
-GPoSTTL (Ver. 0.9.4): Tagging...
+GPoSTTL (Ver. 0.9.6): Tagging...
 I	PP	i
 am	VBP	be
 loving	JJ	love
