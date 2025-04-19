@@ -38,5 +38,12 @@ It has standard autoconf-based installation:
 make
 make install
 ```
+PS: If you have downloaded the source codes from the repository then you need to first generate the "configure" script by using the following command:
+
+```bash
+autoreconf --install
+```
+
+
 
 
