@@ -38,11 +38,44 @@ It has standard autoconf-based installation:
 make
 make install
 ```
-PS: If you have downloaded the source codes from the repository then you need to first generate the "configure" script by using the following command:
+PS: If you have downloaded the source codes from the repository then you need to generate the "configure" script first by using following command:
 
 ```bash
 autoreconf --install
 ```
+Please see the manpage for usage details. It is known to work with GNU/Linux and FreeBSD.
+
+
+## Usage
+
+After installation, you can use GPoSTTL to process text files as:
+
+```bash
+gposttl input.txt > output.tagged
+```
+Or you may pipe the text directly as:
+
+```bash
+echo "I am loving it!" | gposttl
+```
+which would result an output like:
+```bash
+GPoSTTL (Ver. 0.9.4): Tagging...
+I	PP	i
+am	VBP	be
+loving	JJ	love
+it	PP	it
+!	SENT	!
+GPoSTTL: Done
+```
+
+## License
+GPoSTTL is released under the [Historical Permission Notice and Disclaimer](COPYING) as classified 
+by the [OpenSource Initiative](https://www.opensource.org/licenses/).
+
+## Author & Contact
+
+**Golam Mortuza Hossain**   (gmhossain at gmail dot com)  [Personal Webpage](https://www.iiserkol.ac.in/~ghossain/)
 
 
 
