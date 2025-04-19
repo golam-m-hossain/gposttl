@@ -1,5 +1,18 @@
-Basic Installation
-==================
+Basic Installation:
+===================
+
+In most cases, basic installation would require running
+following set of commands in a terminal:
+
+$ autoreconf --install
+$ ./configure [--prefix=$HOME for non-root installations]
+$ make
+$ make install
+
+
+
+Detailed Installation Instructions:
+===================================
 
    These are generic installation instructions.
 

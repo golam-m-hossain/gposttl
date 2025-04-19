@@ -34,14 +34,10 @@ GPoSTTL is designed to be a drop-in replacement for TreeTagger in such systems.
 It has standard autoconf-based installation:
 
 ```bash
+autoreconf --install
 ./configure [--prefix=$HOME for non-root installations]
 make
 make install
-```
-PS: If you have downloaded the source codes from the repository then you need to generate the "configure" script first by using following command:
-
-```bash
-autoreconf --install
 ```
 Please see the manpage for usage details. It is known to work with GNU/Linux and FreeBSD.
 
