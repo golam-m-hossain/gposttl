@@ -25,8 +25,8 @@ GPoSTTL contains several new features compared to the original Brill Tagger and 
 
 ## Motivation
 
-GPoSTTL is developed as a crucial component for the **[Anubadok : a GPL'ed machine translator for Bengali](https://github.com/golam-m-hossain/anubadok)**. GPoSTTL 
-It serves as an open-source alternative to [TreeTagger](http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/) which was used earlier for Anubadok system.
+GPoSTTL is developed as a crucial component for the **[Anubadok : a GPL'ed machine translator for Bengali](https://github.com/golam-m-hossain/anubadok)** 
+and it serves as an open-source alternative to [TreeTagger](http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/) which was used earlier for Anubadok system.
 GPoSTTL is designed to be a drop-in replacement for TreeTagger in such systems.
 
 ## Installation
